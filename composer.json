@@ -1,0 +1,21 @@
+{
+    "name": "xiaohe/mq",
+    "type": "library",
+    "description": "",
+    "require": {
+        "php-amqplib/php-amqplib": "^2.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangshuaishuai",
+            "email": "yangshuaishuai@xiaohe.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"xiaohe\\messagequeue\\": "src/"}
+    }
+}
